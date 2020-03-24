@@ -20,6 +20,15 @@ curl --insecure https://localhost:5001/api/books
 ## Test application from http (Is possible is comment the redirection from StartUp Configure)
 curl http://localhost:5000/api/books
 
+## Some docker commands
+docker images
+docker rmi <IMAGE_ID>
+docker container ps -all
+docker container rm <CONTAINER_ID>
+docker container stop <CONTAINER_ID>
+docker container start <CONTAINER_ID>
+
+
 ## Build docker image
 docker build -t bookapi .
 
