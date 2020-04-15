@@ -37,6 +37,8 @@ curl http://localhost:5000/api/books
 http://localhost:5000/swagger/index.html
 ```
 
+![Swagger](https://user-images.githubusercontent.com/1216181/79368057-1b933e80-7f4f-11ea-96ed-257ce9e4784f.png)
+
 ## Some docker commands
 ```bash
 docker images
