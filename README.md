@@ -32,6 +32,11 @@ curl --insecure https://localhost:5001/api/books
 curl http://localhost:5000/api/books
 ```
 
+## To access swagger web ui
+```bash
+http://localhost:5000/swagger/index.html
+```
+
 ## Some docker commands
 ```bash
 docker images

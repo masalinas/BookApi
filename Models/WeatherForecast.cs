@@ -1,6 +1,6 @@
 using System;
 
-namespace BooksApi
+namespace BooksApi.Models
 {
     public class WeatherForecast
     {
