@@ -56,8 +56,7 @@ namespace BooksApi
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
 
-            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
-            // specifying the Swagger JSON endpoint.
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(swaggerUI =>
             {
                 swaggerUI.SwaggerEndpoint("/swagger/v1/swagger.json", "Book API V1");
@@ -70,11 +69,8 @@ namespace BooksApi
 
             // uncomment to redirect all request to secure port (5001)
             //app.UseHttpsRedirection();
-
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
