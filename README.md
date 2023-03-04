@@ -9,7 +9,7 @@ dotnet new webapi -o BooksApi
 ## Add MongoDB Driver and Swashbuckle project dependencies
 ```bash
 dotnet add BooksApi.csproj package MongoDB.Driver
-dotnet add package Swashbuckle.AspNetCore
+dotnet add BooksApi.csproj package Swashbuckle.AspNetCore
 ```
 
 ## Build project
